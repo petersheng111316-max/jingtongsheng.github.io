@@ -80,8 +80,8 @@ nav ul li a:hover {
 
 .btn {
     display: inline-block;
-    background-color: #3498db;
-    color: white;
+    background-color: black;
+    color: #3498db;
     padding: 12px 30px;
     border-radius: 30px;
     text-decoration: none;
