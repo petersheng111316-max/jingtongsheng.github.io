@@ -38,11 +38,11 @@ body {
     
     /* ====== FULL PAGE BACKGROUND IMAGE ====== */
     background-image: url('background.png');
-    background-size: cover;          /* Fills entire screen */
-    background-position: center;     /* Centers the image */
-    background-repeat: no-repeat;    /* No tiling */
-    background-attachment: fixed;    /* Image stays fixed when scrolling */
-    background-color: #ffffff;       /* Fallback color while image loads */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #ffffff;
 }
 
 h1 {
