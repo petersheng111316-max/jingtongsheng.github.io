@@ -1,43 +1,219 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jingtong "Peter" Sheng | Personal Website</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>Jingtong Sheng</title>
 </head>
+
 <body>
-    <nav>
-        <div class="container">
-            <a href="index.html" class="logo">Jingtong "Peter" Sheng</a>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="research.html">Research</a></li>
-                <li><a href="hobbies.html">Hobbies</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+    <h1> Jingtong Sheng </h1>
+    <div class="container-fluid head" align="middle">
+        <div class="row align-items-center">
+            <div id="picture" class="col-12 col-md-2">
+                <img src="profile.jpg" style="height: 200px; border: 1px solid black;" alt="Photo of Your Name">
+            </div>
+            <div class="col col-md-10" style="width: 400px">
+                <p> Undergraduate Student Researcher, University of California, San Diego</p>
+                <p>
+                    <a href="https://scholar.google.com/citations?user=yourID">Google Scholar</a> |
+                    <a href="https://arxiv.org/advanced?terms-0-operator=AND&terms-0-term=yourname&terms-0-field=author">arXiv</a> |
+                    <a href="documents/your_cv.pdf">CV</a>
+                </p>
+                <p>                    
+                    j1sheng@ucsd.edu
+                </p>
+            </div>
         </div>
-    </nav>
+    </div>
 
-    <header class="hero">
-        <div class="container">
-            <h1>Hi, I'm Jingtong "Peter" Sheng</h1>
-            <p class="subtitle">The elegant messiness of the universe | Student Researcher | Physics Enthusiast</p>
-        </div>
-    </header>
+    <div class="container-fluid">
+        <div class="row d-block">
+            <!-- Left Column -->
+            <div class="col-12 col-md-4 order-1 float-left">
+                <!-- About Me -->
+                <div id="overview" class="container-fluid">
+                    <h2> About Me </h2>
+                    <p>
+                        I am a undergraduate student majoring in Physics and Astronomy & Astrophysics at UCSD.
+                    </p>
+                    <p>
+                        My research interests fall in plasma turbulence under ExB shearing and the basics of energy transport as well as Alfvén waves. I am currently studying the concept of Kubo number and the production ratio in turbulent region near the Last Closed Flux Surface (LCFS) of tokamaks.
+                    </p>
+                    <p>
+                        I previously worked at Summer Program for Undergraduate Research in Science (SPURS) in the group of Prof. Patrick Diamond (2024-2027).
+                    </p>
+                    <p>
+                        Outside of the field of plasma physics, I also enjoy playing basketball, swimming, and playing snooker with my peers.
+                    </p>
+                </div>
+                
+                <!-- Education -->
+                <div id="education" class="container-fluid">
+                    <h2>Education</h2>
+                    <p>
+                        <b> UCSD </b>
+                        <br> B.S., Physics with honors
+                        <br> Advisor: Professor Patrick Diamond
+                        <br> 2023 &mdash; 2027.
+                    </p>
+                    <p>
+                        <b>UCSD</b>
+                        <br> B.A., Astronomy & Astrophysics
+                        <br> 2023 &mdash; 2027.
+                    </p>
+                </div>
+                
+                <!-- Theses -->
+                <!--
+                <div id="theses_side" class="container-fluid">
+                    <h2> Theses </h2>
+                    <p class="paper">
+                        <b>Title of Your Thesis</b><br>
+                        [Degree] Thesis. Advisor: [Advisor Name]. <i>[Year]</i><br>
+                        <a href="documents/your_thesis.pdf"> PDF </a>
+                    </p>
+                </div>
+                -->
+            </div>
+                
+            <!-- Right Column -->
+            <div class="col-12 col-md-8 float-right order-2">
+                <!-- Publications -->
+                <!--
+                <div id="publications" class="container-fluid">
+                    <h2> Publications </h2>
+                    
+                    <div id="pubs">
+                        <h1>Recent Preprints</h1>
+                        
+                        <p class="paper">       
+                            <b>
+                            Paper Title 1
+                            <br>
+                            </b> Author 1, Author 2, Your Name, Author 4
+                            <br>
+                            <i> Month Year.</i>
+                            <br>
+                            <a href="https://arxiv.org/abs/xxxx.xxxxx">arXiv: xxxx.xxxxx</a> | In Review
+                        </p>
 
-    <section class="section">
-        <div class="container">
-            <h2>Welcome to My Personal Website</h2>
-            <p>I'm a undergraduate student researcher passionate about plasma physics and fluid electromagnetism. Explore my site to learn about my research publications, hobbies, and more!</p>
-        </div>
-    </section>
+                        <p class="paper">       
+                            <b>
+                            Paper Title 2
+                            <br>
+                            </b> Author 1, Your Name, Author 3
+                            <br>
+                            <i> Month Year.</i>
+                            <br>
+                            <a href="https://arxiv.org/abs/xxxx.xxxxx">arXiv: xxxx.xxxxx</a> | In Review
+                        </p>
+                    </div>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Jingtong Sheng. All rights reserved.</p>
+                    <div id="pubs">
+                        <h1>2025</h1>
+                        
+                        <p class="paper">       
+                            <b>
+                            Paper Title with Journal
+                            <br>
+                            </b> Your Name, Author 2, Author 3
+                            <br>
+                            <span class="journal">Journal Name.</span>
+                            <i> Published Month Year.</i>
+                            <br>
+                            <a href="https://arxiv.org/abs/xxxx.xxxxx">arXiv: xxxx.xxxxx</a> | <a href="https://doi.org/xxxx">DOI</a>
+                        </p>
+                    </div>
+
+                    <div id="pubs">
+                        <h1>2024</h1>
+                        
+                        <p class="paper">       
+                            <b>
+                            Paper Title
+                            <br>
+                            </b> Author 1, Your Name, Author 3
+                            <br>
+                            <span class="journal">Journal Name.</span>
+                            <i> Published Month Year.</i>
+                            <br>
+                            <a href="https://arxiv.org/abs/xxxx.xxxxx">arXiv: xxxx.xxxxx</a> | <a href="https://doi.org/xxxx">DOI</a>
+                        </p>
+                    </div>
+                    -->
+                    <!-- Add more years as needed -->
+                </div>
+
+                <!-- Talks and Conferences -->
+                <div id="teaching" class="container-fluid">
+                    <h2> Talks and Conferences </h2>
+
+                    <p class="paper">
+                        <b>Talk Title</b>
+                        <br>
+                        Seminar
+                        <br>
+                        particle, momentum, and heat transport in magnetically confined fusion plasmas seminar
+                        <br> MIT Plasma Science and Fusion Center (MIT-PSFC), Boston, Masachusetts, USA. 5-8 May 2026.
+                        <br>
+                        <a href="TTF_Presentation-Finale.pdf"> Slides </a>
+                    </p>
+
+                    <p class="paper">
+                        <b>Talk Title</b>
+                        <br>
+                        Conference Talk
+                        <br>
+                        APS March Meeting
+                        <br> Location. Date.
+                        <br>
+                        <a href="documents/presentations/slides.pdf"> Slides </a>
+                    </p>
+                </div>
+
+                <!-- Teaching and Tutoring -->
+                <div id="teaching" class="container-fluid">
+                    <h2> Teaching and Tutoring </h2>
+                    
+                    <p class="paper">
+                        <b>PHYS 2C</b><br>
+                        Physics—Fluids, Waves, Thermodynamics, and Optics: A lower-division course covering fluid mechanics, waves in elastic media, sound waves, temperature, heat and the first law of thermodynamics, kinetic theory of gases, entropy and the second law of thermodynamics, Maxwell’s equations, electromagnetic waves, geometric optics, interference and diffraction.
+                        <br>
+                        <i>Fall 2024.</i><br>
+                        Assisted the TA with leading discussion every week. Expected to answer student concerns through email and Canvas.
+                    </p>
+                    
+                    <p class="paper">
+                        <b>PHYS 2D</b><br>
+                        Physics—Relativity and Quantum Physics:  A lower-division modern physics course covering atomic view of matter, electricity and radiation, atomic models of Rutherford and Bohr, relativity, X-rays, wave and particle duality, matter waves, Schrödinger’s equation, atomic view of solids, natural radioactivity.
+                        <br>
+                        <i>Fall 2025, Winter 2026.</i><br>
+                        Assisted the TA with leading discussion and hold extra one hour Q&A session every week.
+                        <br>
+                    </p>
+
+                    <p class="paper">
+                        <b>PHYS 120</b><br>
+                        Circuits and Electronics:Laboratory and lecture course that covers principles of analog circuit theory and design, linear systems theory, and practical aspects of circuit realization, debugging, and characterization. Laboratory exercises include passive circuits, active filters and amplifiers with discrete and monolithic devices, nonlinear circuits, interfaces to sensors and actuators, and the digitization of analog signal.
+                        <br>
+                        <i>Spring 2026.</i><br>
+                        Assisted the TA during lab sessions twice a week. Assisted grading students' lab reports. Proctored and assisted grading the final exam.
+                        <br>
+                    </p>
+                </div>
+            </div>
         </div>
-    </footer>
+    </div>
 </body>
 </html>
