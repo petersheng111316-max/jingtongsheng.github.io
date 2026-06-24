@@ -6,7 +6,8 @@ This is my personal website. Feel free to check out something interesting about 
 - **Home**: Where the fantasy begins
 
 ### Home Page Sections
-- **About**: Personal background, education, and researchexperience
+- **About Me**: personal background, education, and research experience
+- **Education**: detailed information of my program (current/completed)
 - **Talks and Conferences**: presentations, seminars, and talks
 - **Teaching and Tutoring**: employment information, tutoring records
 
