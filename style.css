@@ -33,8 +33,16 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #000000;
-    background-color: #ffffff;
     padding: 20px 40px;
+    min-height: 100vh;
+    
+    /* ====== FULL PAGE BACKGROUND IMAGE ====== */
+    background-image: url('background.png');
+    background-size: cover;          /* Fills entire screen */
+    background-position: center;     /* Centers the image */
+    background-repeat: no-repeat;    /* No tiling */
+    background-attachment: fixed;    /* Image stays fixed when scrolling */
+    background-color: #ffffff;       /* Fallback color while image loads */
 }
 
 h1 {
@@ -153,6 +161,8 @@ a:hover {
     body {
         padding: 20px;
         font-size: 12px;
+        background-image: none !important;  /* Remove background when printing */
+        background-color: #ffffff;
     }
     
     a {
@@ -161,15 +171,5 @@ a:hover {
     
     .container-fluid {
         padding: 0;
-        
-/* ====== FULL PAGE BACKGROUND IMAGE ====== */
-body {
-    background-image: url('background.png');
-    background-size: cover;          /* 🔑 Fills entire screen */
-    background-position: center;     /* Centers the image */
-    background-repeat: no-repeat;    /* No tiling */
-    background-attachment: fixed;    /* Image stays fixed when scrolling */
-    min-height: 100vh;              /* Ensures full viewport height */
-}
     }
 }
